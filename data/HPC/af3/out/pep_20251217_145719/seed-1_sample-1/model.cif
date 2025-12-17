@@ -1,0 +1,233 @@
+# By using this file you agree to the legally binding terms of use found at
+# https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+# To request access to the AlphaFold 3 model parameters, follow the process set
+# out at https://github.com/google-deepmind/alphafold3. You may only use these if
+# received directly from Google. Use is subject to terms of use available at
+# https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+data_pep
+#
+_entry.id pep
+#
+loop_
+_atom_type.symbol
+C 
+N 
+O 
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+"Google DeepMind" 1 
+"Isomorphic Labs" 2 
+#
+_audit_conform.dict_location https://raw.githubusercontent.com/ihmwg/ModelCIF/master/dist/mmcif_ma.dic
+_audit_conform.dict_name     mmcif_ma.dic
+_audit_conform.dict_version  1.4.5
+#
+_chem_comp.formula        ?
+_chem_comp.formula_weight ?
+_chem_comp.id             LIG_A
+_chem_comp.mon_nstd_flag  ?
+_chem_comp.name           ?
+_chem_comp.pdbx_smiles    CC(C)C[C@@H]1NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](C(C)C)NC(=O)[C@H](C)NC(=O)[C@H](C(C)C)NC(=O)[C@H]([C@@H](C)O)NC(=O)CNC1=O
+_chem_comp.pdbx_synonyms  ?
+_chem_comp.type           non-polymer
+#
+_citation.book_publisher          ?
+_citation.country                 UK
+_citation.id                      primary
+_citation.journal_full            Nature
+_citation.journal_id_ASTM         NATUAS
+_citation.journal_id_CSD          0006
+_citation.journal_id_ISSN         0028-0836
+_citation.journal_volume          630
+_citation.page_first              493
+_citation.page_last               500
+_citation.pdbx_database_id_DOI    10.1038/s41586-024-07487-w
+_citation.pdbx_database_id_PubMed 38718835
+_citation.title                   "Accurate structure prediction of biomolecular interactions with AlphaFold 3"
+_citation.year                    2024
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+primary "Google DeepMind" 1 
+primary "Isomorphic Labs" 2 
+#
+_entity.id               1
+_entity.pdbx_description .
+_entity.type             non-polymer
+#
+_ma_data.content_type "model coordinates"
+_ma_data.id           1
+_ma_data.name         Model
+#
+_ma_model_list.data_id          1
+_ma_model_list.model_group_id   1
+_ma_model_list.model_group_name "AlphaFold-beta-20231127 (3.0.0 @ 2025-12-17 15:03:43)"
+_ma_model_list.model_id         1
+_ma_model_list.model_name       "Top ranked model"
+_ma_model_list.model_type       "Ab initio model"
+_ma_model_list.ordinal_id       1
+#
+loop_
+_ma_protocol_step.method_type
+_ma_protocol_step.ordinal_id
+_ma_protocol_step.protocol_id
+_ma_protocol_step.step_id
+"coevolution MSA" 1 1 1 
+"template search" 2 1 2 
+modeling          3 1 3 
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.mode
+_ma_qa_metric.name
+_ma_qa_metric.software_group_id
+_ma_qa_metric.type
+1 global pLDDT 1 pLDDT 
+2 local  pLDDT 1 pLDDT 
+#
+_ma_qa_metric_global.metric_id    1
+_ma_qa_metric_global.metric_value 61.44
+_ma_qa_metric_global.model_id     1
+_ma_qa_metric_global.ordinal_id   1
+#
+_ma_qa_metric_local.label_asym_id A
+_ma_qa_metric_local.label_comp_id LIG_A
+_ma_qa_metric_local.label_seq_id  .
+_ma_qa_metric_local.metric_id     2
+_ma_qa_metric_local.metric_value  61.44
+_ma_qa_metric_local.model_id      1
+_ma_qa_metric_local.ordinal_id    1
+#
+_ma_software_group.group_id    1
+_ma_software_group.ordinal_id  1
+_ma_software_group.software_id 1
+#
+_ma_target_entity.data_id   1
+_ma_target_entity.entity_id 1
+_ma_target_entity.origin    .
+#
+_ma_target_entity_instance.asym_id   A
+_ma_target_entity_instance.details   .
+_ma_target_entity_instance.entity_id 1
+#
+loop_
+_pdbx_data_usage.details
+_pdbx_data_usage.id
+_pdbx_data_usage.type
+_pdbx_data_usage.url
+;Non-commercial use only, by using this file you agree to the terms of use found
+at https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+To request access to the AlphaFold 3 model parameters, follow the process set
+out at https://github.com/google-deepmind/alphafold3. You may only use these if
+received directly from Google. Use is subject to terms of use available at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+;
+1 license    https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md 
+;AlphaFold 3 and its output are not intended for, have not been validated for,
+and are not approved for clinical use. They are provided "as-is" without any
+warranty of any kind, whether expressed or implied. No warranty is given that
+use shall not infringe the rights of any third party.
+;
+2 disclaimer ?                                                                              
+#
+_pdbx_nonpoly_scheme.asym_id       A
+_pdbx_nonpoly_scheme.auth_seq_num  1
+_pdbx_nonpoly_scheme.entity_id     1
+_pdbx_nonpoly_scheme.mon_id        LIG_A
+_pdbx_nonpoly_scheme.pdb_ins_code  .
+_pdbx_nonpoly_scheme.pdb_seq_num   1
+_pdbx_nonpoly_scheme.pdb_strand_id A
+#
+_software.classification other
+_software.date           ?
+_software.description    "Structure prediction"
+_software.name           AlphaFold
+_software.pdbx_ordinal   1
+_software.type           package
+_software.version        "AlphaFold-beta-20231127 (4427c9a29fcf32f3f0b6e4896287512d1c65437b7e09c4b2fb5912c9266377d6)"
+#
+_struct_asym.entity_id 1
+_struct_asym.id        A
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+HETATM 1  C C1  . LIG_A A 1 . ? -6.207 1.497  -2.468 1.00 64.70 1 A 1 
+HETATM 2  C C2  . LIG_A A 1 . ? -5.249 1.590  -1.343 1.00 64.09 1 A 1 
+HETATM 3  C C3  . LIG_A A 1 . ? -5.900 1.518  -0.003 1.00 65.36 1 A 1 
+HETATM 4  C C4  . LIG_A A 1 . ? -4.138 0.591  -1.435 1.00 68.56 1 A 1 
+HETATM 5  C C5  . LIG_A A 1 . ? -3.251 0.807  -2.639 1.00 65.94 1 A 1 
+HETATM 6  N N1  . LIG_A A 1 . ? -2.313 1.894  -2.362 1.00 69.41 1 A 1 
+HETATM 7  C C6  . LIG_A A 1 . ? -2.162 3.018  -3.132 1.00 67.53 1 A 1 
+HETATM 8  O O1  . LIG_A A 1 . ? -2.768 3.059  -4.183 1.00 72.67 1 A 1 
+HETATM 9  C C7  . LIG_A A 1 . ? -1.266 4.205  -2.732 1.00 71.09 1 A 1 
+HETATM 10 C C8  . LIG_A A 1 . ? -2.083 5.514  -2.739 1.00 68.57 1 A 1 
+HETATM 11 C C9  . LIG_A A 1 . ? -1.279 6.766  -2.793 1.00 58.40 1 A 1 
+HETATM 12 C C10 . LIG_A A 1 . ? -0.723 7.344  -1.671 1.00 59.28 1 A 1 
+HETATM 13 C C11 . LIG_A A 1 . ? 0.028  8.462  -1.766 1.00 54.71 1 A 1 
+HETATM 14 C C12 . LIG_A A 1 . ? 0.212  9.032  -2.944 1.00 52.58 1 A 1 
+HETATM 15 C C13 . LIG_A A 1 . ? -0.340 8.512  -4.067 1.00 53.50 1 A 1 
+HETATM 16 C C14 . LIG_A A 1 . ? -1.094 7.392  -4.006 1.00 56.21 1 A 1 
+HETATM 17 N N2  . LIG_A A 1 . ? -0.662 4.026  -1.417 1.00 73.35 1 A 1 
+HETATM 18 C C15 . LIG_A A 1 . ? 0.644  4.095  -1.233 1.00 70.64 1 A 1 
+HETATM 19 O O2  . LIG_A A 1 . ? 1.385  4.209  -2.177 1.00 72.56 1 A 1 
+HETATM 20 C C16 . LIG_A A 1 . ? 1.185  3.971  0.187  1.00 72.21 1 A 1 
+HETATM 21 C C17 . LIG_A A 1 . ? 1.866  5.253  0.602  1.00 69.67 1 A 1 
+HETATM 22 C C18 . LIG_A A 1 . ? 3.299  5.005  0.910  1.00 65.43 1 A 1 
+HETATM 23 C C19 . LIG_A A 1 . ? 4.099  6.212  0.979  1.00 61.10 1 A 1 
+HETATM 24 N N3  . LIG_A A 1 . ? 4.916  6.344  1.988  1.00 56.73 1 A 1 
+HETATM 25 O O3  . LIG_A A 1 . ? 3.995  7.029  0.122  1.00 62.78 1 A 1 
+HETATM 26 N N4  . LIG_A A 1 . ? 0.128  3.578  1.081  1.00 72.29 1 A 1 
+HETATM 27 C C20 . LIG_A A 1 . ? 0.076  2.379  1.581  1.00 63.09 1 A 1 
+HETATM 28 O O4  . LIG_A A 1 . ? 1.017  1.661  1.563  1.00 69.10 1 A 1 
+HETATM 29 C C21 . LIG_A A 1 . ? -1.237 1.876  2.125  1.00 64.38 1 A 1 
+HETATM 30 C C22 . LIG_A A 1 . ? -1.642 2.644  3.355  1.00 63.84 1 A 1 
+HETATM 31 C C23 . LIG_A A 1 . ? -1.029 2.244  4.616  1.00 58.52 1 A 1 
+HETATM 32 C C24 . LIG_A A 1 . ? -3.093 2.957  3.383  1.00 61.54 1 A 1 
+HETATM 33 N N5  . LIG_A A 1 . ? -1.217 0.463  2.342  1.00 65.72 1 A 1 
+HETATM 34 C C25 . LIG_A A 1 . ? -1.356 -0.404 1.314  1.00 60.70 1 A 1 
+HETATM 35 O O5  . LIG_A A 1 . ? -1.312 -0.029 0.196  1.00 64.74 1 A 1 
+HETATM 36 C C26 . LIG_A A 1 . ? -1.550 -1.859 1.652  1.00 60.08 1 A 1 
+HETATM 37 C C27 . LIG_A A 1 . ? -2.826 -2.271 1.002  1.00 62.07 1 A 1 
+HETATM 38 N N6  . LIG_A A 1 . ? -0.478 -2.747 1.148  1.00 59.28 1 A 1 
+HETATM 39 C C28 . LIG_A A 1 . ? 0.049  -3.677 1.935  1.00 52.90 1 A 1 
+HETATM 40 O O6  . LIG_A A 1 . ? -0.201 -3.725 3.104  1.00 58.13 1 A 1 
+HETATM 41 C C29 . LIG_A A 1 . ? 0.995  -4.671 1.278  1.00 53.50 1 A 1 
+HETATM 42 C C30 . LIG_A A 1 . ? 1.416  -5.739 2.262  1.00 51.94 1 A 1 
+HETATM 43 C C31 . LIG_A A 1 . ? 2.864  -5.874 2.409  1.00 49.93 1 A 1 
+HETATM 44 C C32 . LIG_A A 1 . ? 0.662  -6.991 2.219  1.00 51.16 1 A 1 
+HETATM 45 N N7  . LIG_A A 1 . ? 0.354  -5.241 0.104  1.00 54.58 1 A 1 
+HETATM 46 C C33 . LIG_A A 1 . ? 0.789  -5.039 -1.138 1.00 49.50 1 A 1 
+HETATM 47 O O7  . LIG_A A 1 . ? 1.834  -4.521 -1.349 1.00 57.67 1 A 1 
+HETATM 48 C C34 . LIG_A A 1 . ? -0.156 -5.454 -2.265 1.00 49.87 1 A 1 
+HETATM 49 C C35 . LIG_A A 1 . ? 0.117  -6.770 -2.845 1.00 53.08 1 A 1 
+HETATM 50 C C36 . LIG_A A 1 . ? 0.963  -6.870 -4.008 1.00 50.79 1 A 1 
+HETATM 51 O O8  . LIG_A A 1 . ? -0.510 -7.791 -2.412 1.00 49.03 1 A 1 
+HETATM 52 N N8  . LIG_A A 1 . ? -0.163 -4.386 -3.248 1.00 61.69 1 A 1 
+HETATM 53 C C37 . LIG_A A 1 . ? -0.861 -3.271 -3.044 1.00 52.14 1 A 1 
+HETATM 54 O O9  . LIG_A A 1 . ? -1.472 -3.222 -2.023 1.00 64.27 1 A 1 
+HETATM 55 C C38 . LIG_A A 1 . ? -0.836 -2.101 -4.066 1.00 60.82 1 A 1 
+HETATM 56 N N9  . LIG_A A 1 . ? -1.450 -0.817 -3.688 1.00 67.95 1 A 1 
+HETATM 57 C C39 . LIG_A A 1 . ? -2.596 -0.585 -3.016 1.00 61.73 1 A 1 
+HETATM 58 O O10 . LIG_A A 1 . ? -3.153 -1.568 -2.707 1.00 70.28 1 A 1 
+#

@@ -1,0 +1,202 @@
+data_model
+_entry.id model
+_struct.entry_id model
+_struct.pdbx_model_details .
+_struct.pdbx_structure_determination_methodology computational
+_struct.title .
+_audit_conform.dict_location https://raw.githubusercontent.com/ihmwg/ModelCIF/d18ba38/base/mmcif_ma-core.dic
+_audit_conform.dict_name mmcif_ma.dic
+_audit_conform.dict_version 1.4.6
+#
+loop_
+_chem_comp.id
+_chem_comp.type
+_chem_comp.name
+_chem_comp.formula
+_chem_comp.formula_weight
+_chem_comp.ma_provenance
+LIG1 non-polymer . . . 'CCD Core'
+#
+#
+loop_
+_entity.id
+_entity.type
+_entity.src_method
+_entity.pdbx_description
+_entity.formula_weight
+_entity.pdbx_number_of_molecules
+_entity.details
+1 non-polymer man . . 1 .
+#
+#
+loop_
+_pdbx_entity_nonpoly.entity_id
+_pdbx_entity_nonpoly.name
+_pdbx_entity_nonpoly.comp_id
+_pdbx_entity_nonpoly.ma_model_mode
+1 . LIG1 .
+#
+#
+loop_
+_struct_asym.id
+_struct_asym.entity_id
+_struct_asym.details
+A 1 'Model subunit A'
+#
+#
+loop_
+_pdbx_nonpoly_scheme.asym_id
+_pdbx_nonpoly_scheme.entity_id
+_pdbx_nonpoly_scheme.mon_id
+_pdbx_nonpoly_scheme.ndb_seq_num
+_pdbx_nonpoly_scheme.pdb_seq_num
+_pdbx_nonpoly_scheme.auth_seq_num
+_pdbx_nonpoly_scheme.auth_mon_id
+_pdbx_nonpoly_scheme.pdb_strand_id
+_pdbx_nonpoly_scheme.pdb_ins_code
+A 1 LIG1 1 1 1 LIG1 A .
+#
+#
+loop_
+_ma_data.id
+_ma_data.name
+_ma_data.content_type
+_ma_data.content_type_other_details
+1 . target .
+2 Model 'model coordinates' .
+#
+#
+loop_
+_ma_target_entity.entity_id
+_ma_target_entity.data_id
+_ma_target_entity.origin
+1 1 designed
+#
+#
+loop_
+_ma_target_entity_instance.asym_id
+_ma_target_entity_instance.entity_id
+_ma_target_entity_instance.details
+A 1 'Model subunit A'
+#
+#
+loop_
+_ma_model_list.ordinal_id
+_ma_model_list.model_id
+_ma_model_list.model_group_id
+_ma_model_list.model_name
+_ma_model_list.model_group_name
+_ma_model_list.data_id
+_ma_model_list.model_type
+_ma_model_list.model_type_other_details
+1 1 1 Model 'All models' 2 'Ab initio model' .
+#
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_seq_id
+_atom_site.auth_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.label_asym_id
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.label_entity_id
+_atom_site.auth_asym_id
+_atom_site.auth_comp_id
+_atom_site.B_iso_or_equiv
+_atom_site.pdbx_PDB_model_num
+HETATM 1 C C97 . LIG1 . 1 ? A 1.73447 -3.77746 6.28628 1 1 A LIG1 50.589 1
+HETATM 2 C C104 . LIG1 . 1 ? A 1.53485 -3.48721 4.82904 1 1 A LIG1 50.725 1
+HETATM 3 C C98 . LIG1 . 1 ? A 2.77166 -3.46077 4.03465 1 1 A LIG1 49.197 1
+HETATM 4 C C108 . LIG1 . 1 ? A 0.59555 -2.34810 4.58908 1 1 A LIG1 56.363 1
+HETATM 5 C C115 . LIG1 . 1 ? A 0.21395 -1.96787 3.22310 1 1 A LIG1 55.378 1
+HETATM 6 N N92 . LIG1 . 1 ? A 0.34270 -0.46788 3.03601 1 1 A LIG1 39.965 1
+HETATM 7 C C75 . LIG1 . 1 ? A 0.75169 0.15450 1.83900 1 1 A LIG1 57.002 1
+HETATM 8 O O65 . LIG1 . 1 ? A 1.18196 -0.39774 0.79651 1 1 A LIG1 51.034 1
+HETATM 9 C C113 . LIG1 . 1 ? A 0.58061 1.65159 1.81338 1 1 A LIG1 58.306 1
+HETATM 10 C C106 . LIG1 . 1 ? A -0.82811 2.06940 1.66529 1 1 A LIG1 51.770 1
+HETATM 11 C C86 . LIG1 . 1 ? A -1.16649 3.43696 2.03724 1 1 A LIG1 51.667 1
+HETATM 12 C C84 . LIG1 . 1 ? A -1.22167 4.43172 1.09265 1 1 A LIG1 57.527 1
+HETATM 13 C C82 . LIG1 . 1 ? A -1.61404 5.72057 1.40898 1 1 A LIG1 60.701 1
+HETATM 14 C C81 . LIG1 . 1 ? A -1.94024 6.03644 2.70690 1 1 A LIG1 53.886 1
+HETATM 15 C C83 . LIG1 . 1 ? A -1.90258 5.06445 3.67841 1 1 A LIG1 53.711 1
+HETATM 16 C C85 . LIG1 . 1 ? A -1.50348 3.76679 3.34539 1 1 A LIG1 55.664 1
+HETATM 17 N N90 . LIG1 . 1 ? A 1.40838 2.12857 0.62602 1 1 A LIG1 40.906 1
+HETATM 18 C C76 . LIG1 . 1 ? A 2.70752 2.66803 0.69763 1 1 A LIG1 52.953 1
+HETATM 19 O O66 . LIG1 . 1 ? A 3.42004 2.76310 1.74242 1 1 A LIG1 44.584 1
+HETATM 20 C C114 . LIG1 . 1 ? A 3.33913 3.12995 -0.56282 1 1 A LIG1 52.465 1
+HETATM 21 C C107 . LIG1 . 1 ? A 4.16656 4.33586 -0.48619 1 1 A LIG1 58.035 1
+HETATM 22 C C103 . LIG1 . 1 ? A 4.95199 4.64908 -1.66244 1 1 A LIG1 57.656 1
+HETATM 23 C C73 . LIG1 . 1 ? A 5.96369 5.76410 -1.51926 1 1 A LIG1 51.241 1
+HETATM 24 N N87 . LIG1 . 1 ? A 6.53016 5.95294 -0.40324 1 1 A LIG1 36.733 1
+HETATM 25 O O63 . LIG1 . 1 ? A 6.23117 6.43912 -2.48730 1 1 A LIG1 45.244 1
+HETATM 26 N N91 . LIG1 . 1 ? A 2.31020 3.28900 -1.64753 1 1 A LIG1 45.738 1
+HETATM 27 C C79 . LIG1 . 1 ? A 2.24979 2.48583 -2.80616 1 1 A LIG1 49.915 1
+HETATM 28 O O69 . LIG1 . 1 ? A 2.91861 1.45515 -3.08205 1 1 A LIG1 49.657 1
+HETATM 29 C C117 . LIG1 . 1 ? A 1.14975 2.71469 -3.73501 1 1 A LIG1 55.627 1
+HETATM 30 C C110 . LIG1 . 1 ? A 1.36176 3.85245 -4.66740 1 1 A LIG1 56.254 1
+HETATM 31 C C101 . LIG1 . 1 ? A 2.71703 3.98388 -5.22960 1 1 A LIG1 54.653 1
+HETATM 32 C C102 . LIG1 . 1 ? A 0.26225 4.28450 -5.56902 1 1 A LIG1 52.421 1
+HETATM 33 N N94 . LIG1 . 1 ? A -0.23557 2.52995 -3.31431 1 1 A LIG1 40.913 1
+HETATM 34 C C74 . LIG1 . 1 ? A -0.79818 1.42983 -2.61478 1 1 A LIG1 55.217 1
+HETATM 35 O O64 . LIG1 . 1 ? A -0.26016 0.52089 -2.00759 1 1 A LIG1 55.335 1
+HETATM 36 C C112 . LIG1 . 1 ? A -2.27172 1.33520 -2.58286 1 1 A LIG1 52.221 1
+HETATM 37 C C105 . LIG1 . 1 ? A -2.93512 1.58898 -1.33932 1 1 A LIG1 59.226 1
+HETATM 38 N N89 . LIG1 . 1 ? A -2.58763 -0.00920 -3.21897 1 1 A LIG1 35.289 1
+HETATM 39 C C78 . LIG1 . 1 ? A -2.83520 -0.24464 -4.59933 1 1 A LIG1 53.847 1
+HETATM 40 O O68 . LIG1 . 1 ? A -2.81906 0.63206 -5.50673 1 1 A LIG1 54.877 1
+HETATM 41 C C116 . LIG1 . 1 ? A -3.11906 -1.62348 -5.10032 1 1 A LIG1 58.576 1
+HETATM 42 C C109 . LIG1 . 1 ? A -2.16927 -2.07274 -6.14443 1 1 A LIG1 60.645 1
+HETATM 43 C C99 . LIG1 . 1 ? A -0.79425 -2.19522 -5.65967 1 1 A LIG1 56.542 1
+HETATM 44 C C100 . LIG1 . 1 ? A -2.64645 -3.14225 -7.04032 1 1 A LIG1 60.690 1
+HETATM 45 N N93 . LIG1 . 1 ? A -3.25992 -2.66932 -4.03908 1 1 A LIG1 38.466 1
+HETATM 46 C C80 . LIG1 . 1 ? A -4.35016 -2.87512 -3.17738 1 1 A LIG1 52.028 1
+HETATM 47 O O70 . LIG1 . 1 ? A -5.26529 -2.03161 -2.96449 1 1 A LIG1 53.204 1
+HETATM 48 C C118 . LIG1 . 1 ? A -4.27396 -4.06656 -2.29709 1 1 A LIG1 54.383 1
+HETATM 49 C C119 . LIG1 . 1 ? A -5.42752 -4.98550 -2.34078 1 1 A LIG1 60.455 1
+HETATM 50 C C111 . LIG1 . 1 ? A -6.75225 -4.38835 -2.03179 1 1 A LIG1 56.929 1
+HETATM 51 O O71 . LIG1 . 1 ? A -5.22372 -6.17631 -1.63777 1 1 A LIG1 50.806 1
+HETATM 52 N N95 . LIG1 . 1 ? A -3.94354 -3.62963 -0.90655 1 1 A LIG1 50.403 1
+HETATM 53 C C72 . LIG1 . 1 ? A -2.66883 -3.20829 -0.51758 1 1 A LIG1 52.713 1
+HETATM 54 O O62 . LIG1 . 1 ? A -1.64031 -2.99282 -1.19638 1 1 A LIG1 45.789 1
+HETATM 55 C C96 . LIG1 . 1 ? A -2.59867 -3.01480 0.86153 1 1 A LIG1 59.254 1
+HETATM 56 N N88 . LIG1 . 1 ? A -1.32593 -2.70825 1.50813 1 1 A LIG1 32.656 1
+HETATM 57 C C77 . LIG1 . 1 ? A -1.16273 -2.34311 2.83311 1 1 A LIG1 55.446 1
+HETATM 58 O O67 . LIG1 . 1 ? A -2.05511 -2.20655 3.74921 1 1 A LIG1 48.733 1
+#
+#
+loop_
+_atom_type.symbol
+C
+N
+O
+#
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.name
+_ma_qa_metric.description
+_ma_qa_metric.type
+_ma_qa_metric.mode
+_ma_qa_metric.type_other_details
+_ma_qa_metric.software_group_id
+1 pLDDT 'Predicted lddt' pLDDT local . .
+#
+#
+loop_
+_ma_qa_metric_local.ordinal_id
+_ma_qa_metric_local.model_id
+_ma_qa_metric_local.label_asym_id
+_ma_qa_metric_local.label_seq_id
+_ma_qa_metric_local.label_comp_id
+_ma_qa_metric_local.metric_id
+_ma_qa_metric_local.metric_value
+1 1 A 1 LIG1 1 51.930
+#

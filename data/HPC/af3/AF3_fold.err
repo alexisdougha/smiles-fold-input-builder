@@ -1,0 +1,134 @@
+I1217 14:45:55.317180 47852909641728 xla_bridge.py:895] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+I1217 14:45:55.330177 47852909641728 xla_bridge.py:895] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2025-12-17 14:45:55.721718: W external/xla/xla/service/gpu/nvptx_compiler.cc:930] The NVIDIA driver's CUDA version is 12.4 which is older than the PTX compiler version 12.6.77. Because the driver is older than the PTX compiler version, XLA is disabling parallel compilation, which may slow down compilation. You should update your NVIDIA driver or use the NVIDIA-provided CUDA forward compatibility packages.
+I1217 14:46:02.746957 47852909641728 pipeline.py:164] processing pep, random_seed=1
+I1217 14:46:02.761413 47852909641728 pipeline.py:257] Calculating bucket size for input with 66 tokens.
+I1217 14:46:02.761528 47852909641728 pipeline.py:263] Got bucket size 256 for input with 66 tokens, resulting in 190 padded tokens.
+I1217 14:46:02.791358 47852909641728 features.py:1518] Using SMILES for: LIG_A - C[C@@H](O)[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(=O)[O-])NC(=O)[C@H](CC(=O)[O-])NC(=O)[C@@H](CCC(N)=O)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](CCCNC(N)=[NH2+])NC(=O)[C@H]2CCCN2C1=O
+I1217 14:47:05.588326 47852909641728 features.py:1518] Using SMILES for: LIG_A - C[C@@H](O)[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(=O)[O-])NC(=O)[C@H](CC(=O)[O-])NC(=O)[C@@H](CCC(N)=O)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](CCCNC(N)=[NH2+])NC(=O)[C@H]2CCCN2C1=O
+I1217 14:52:00.150447 47852909641728 pipeline.py:164] processing pep, random_seed=1
+I1217 14:52:00.157014 47852909641728 pipeline.py:257] Calculating bucket size for input with 72 tokens.
+I1217 14:52:00.157109 47852909641728 pipeline.py:263] Got bucket size 256 for input with 72 tokens, resulting in 184 padded tokens.
+I1217 14:52:00.187005 47852909641728 features.py:1518] Using SMILES for: LIG_A - NC(=[NH2+])NCCC[C@@H]1NC(=O)[C@@H](CCC(N)=O)NC(=O)[C@H]2CCCN2C(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H]2CCCN2C(=O)[C@@H](CCC(=O)[O-])NC1=O
+I1217 14:54:51.458800 47852909641728 features.py:1518] Using SMILES for: LIG_A - NC(=[NH2+])NCCC[C@@H]1NC(=O)[C@@H](CCC(N)=O)NC(=O)[C@H]2CCCN2C(=O)[C@H](CCC(N)=O)NC(=O)[C@@H](CCCNC(N)=[NH2+])NC(=O)[C@H](CCC(N)=O)NC(=O)[C@@H]2CCCN2C(=O)[C@@H](CCC(=O)[O-])NC1=O
+I1217 14:57:19.314604 47852909641728 pipeline.py:164] processing pep, random_seed=1
+I1217 14:57:19.320626 47852909641728 pipeline.py:257] Calculating bucket size for input with 58 tokens.
+I1217 14:57:19.320706 47852909641728 pipeline.py:263] Got bucket size 256 for input with 58 tokens, resulting in 198 padded tokens.
+I1217 14:57:19.349139 47852909641728 features.py:1518] Using SMILES for: LIG_A - CC(C)C[C@@H]1NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](C(C)C)NC(=O)[C@H](C)NC(=O)[C@H](C(C)C)NC(=O)[C@H]([C@@H](C)O)NC(=O)CNC1=O
+I1217 14:59:03.960508 47852909641728 features.py:1518] Using SMILES for: LIG_A - CC(C)C[C@@H]1NC(=O)[C@H](Cc2ccccc2)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](C(C)C)NC(=O)[C@H](C)NC(=O)[C@H](C(C)C)NC(=O)[C@H]([C@@H](C)O)NC(=O)CNC1=O
+W1217 15:03:35.672141 47852909641728 rdkit_utils.py:541] Failed to generate conformer for: LIG_A
+W1217 15:03:35.673342 47852909641728 features.py:1467] All ref positions unknown for: LIG_A
+I1217 15:03:35.682234 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.682372 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.682490 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.682602 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.682714 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.682835 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.682944 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683068 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683177 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683285 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683394 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683507 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683615 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683721 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683840 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.683949 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684055 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684160 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684266 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684371 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684478 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684582 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684688 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684802 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.684908 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685012 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685118 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685222 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685327 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685432 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685538 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685642 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685755 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685861 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.685966 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686071 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686176 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686280 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686387 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686497 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686602 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686707 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686838 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.686947 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687054 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687170 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687280 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687386 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687491 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687596 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687700 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687815 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.687920 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.688026 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.688132 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.688238 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.688343 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:35.688449 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:03:43.946963 47852909641728 pipeline.py:164] processing pep, random_seed=1
+I1217 15:03:43.952683 47852909641728 pipeline.py:257] Calculating bucket size for input with 42 tokens.
+I1217 15:03:43.952767 47852909641728 pipeline.py:263] Got bucket size 256 for input with 42 tokens, resulting in 214 padded tokens.
+I1217 15:03:43.980768 47852909641728 features.py:1518] Using SMILES for: LIG_A - CC(C)[C@H]1C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)NCC(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@H](Cc2ccccc2)C(=O)N1C
+I1217 15:03:57.306155 47852909641728 features.py:1518] Using SMILES for: LIG_A - CC(C)[C@H]1C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)NCC(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@H](Cc2ccccc2)C(=O)N1C
+I1217 15:04:16.939302 47852909641728 pipeline.py:474] Skipping MSA and template search for protein chain A because it already has MSAs and templates.
+I1217 15:04:16.939462 47852909641728 pipeline.py:484] Using no templates for protein chain A
+I1217 15:04:16.944700 47852909641728 pipeline.py:164] processing prot_pep, random_seed=1
+I1217 15:04:16.981197 47852909641728 pipeline.py:257] Calculating bucket size for input with 734 tokens.
+I1217 15:04:16.981270 47852909641728 pipeline.py:263] Got bucket size 768 for input with 734 tokens, resulting in 34 padded tokens.
+I1217 15:04:19.954395 47852909641728 features.py:1518] Using SMILES for: LIG_B - CC(C)[C@H]1C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)NCC(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@H](Cc2ccccc2)C(=O)N1C
+I1217 15:04:33.323009 47852909641728 features.py:1518] Using SMILES for: LIG_B - CC(C)[C@H]1C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)NCC(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@H](Cc2ccccc2)C(=O)N1C
+W1217 15:05:47.904475 47852909641728 rdkit_utils.py:541] Failed to generate conformer for: LIG_B
+W1217 15:05:47.905485 47852909641728 features.py:1467] All ref positions unknown for: LIG_B
+I1217 15:05:47.930185 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.930335 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.930463 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.930585 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.930708 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.930841 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.930961 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931080 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931198 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931339 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931459 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931577 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931695 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931829 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.931947 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932065 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932183 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932300 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932416 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932533 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932651 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932779 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.932897 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933012 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933127 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933243 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933359 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933475 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933590 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933706 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933830 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.933946 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934062 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934178 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934294 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934410 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934526 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934644 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934771 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.934888 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.935006 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.
+I1217 15:05:47.935122 47852909641728 features.py:2053] Found identical coordinates: Assigning as colinear.

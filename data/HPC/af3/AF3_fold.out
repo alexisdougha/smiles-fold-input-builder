@@ -1,0 +1,120 @@
+Running AlphaFold 3. Please note that standard AlphaFold 3 model parameters are
+only available under terms of use provided at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+If you do not agree to these terms and are using AlphaFold 3 derived model
+parameters, cancel execution of AlphaFold 3 inference with CTRL-C, and do not
+use the model parameters.
+Found local devices: [CudaDevice(id=0)], using device 0: cuda:0
+Building model from scratch...
+Processing fold inputs.
+Processing fold input #1
+Processing fold input pep
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.00 seconds
+Output directory: /root/af_output/pep
+Writing model input JSON to /root/af_output/pep
+Predicting 3D structure for pep for seed(s) (1,)...
+Featurising data for seeds (1,)...
+Featurising pep with rng_seed 1.
+Featurising pep with rng_seed 1 took 319.42 seconds.
+Featurising data for seeds (1,) took  323.49 seconds.
+Running model inference for seed 1...
+Running model inference for seed 1 took  37.87 seconds.
+Extracting output structures (one per sample) for seed 1...
+Extracting output structures (one per sample) for seed 1 took  0.01 seconds.
+Running model inference and extracting output structures for seed 1 took 37.88 seconds.
+Running model inference and extracting output structures for seeds (1,) took 37.88 seconds.
+Writing outputs for pep for seed(s) (1,)...
+Done processing fold input pep.
+Processing fold input #2
+Processing fold input pep
+Output directory /root/af_output/pep exists and non-empty, using instead  /root/af_output/pep_20251217_145200.
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.00 seconds
+Output directory: /root/af_output/pep_20251217_145200
+Writing model input JSON to /root/af_output/pep_20251217_145200
+Predicting 3D structure for pep for seed(s) (1,)...
+Featurising data for seeds (1,)...
+Featurising pep with rng_seed 1.
+Featurising pep with rng_seed 1 took 310.90 seconds.
+Featurising data for seeds (1,) took  310.90 seconds.
+Running model inference for seed 1...
+Running model inference for seed 1 took  8.16 seconds.
+Extracting output structures (one per sample) for seed 1...
+Extracting output structures (one per sample) for seed 1 took  0.01 seconds.
+Running model inference and extracting output structures for seed 1 took 8.17 seconds.
+Running model inference and extracting output structures for seeds (1,) took 8.17 seconds.
+Writing outputs for pep for seed(s) (1,)...
+Done processing fold input pep.
+Processing fold input #3
+Processing fold input pep
+Output directory /root/af_output/pep exists and non-empty, using instead  /root/af_output/pep_20251217_145719.
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.00 seconds
+Output directory: /root/af_output/pep_20251217_145719
+Writing model input JSON to /root/af_output/pep_20251217_145719
+Predicting 3D structure for pep for seed(s) (1,)...
+Featurising data for seeds (1,)...
+Featurising pep with rng_seed 1.
+Featurising pep with rng_seed 1 took 376.38 seconds.
+Featurising data for seeds (1,) took  376.38 seconds.
+Running model inference for seed 1...
+Running model inference for seed 1 took  8.15 seconds.
+Extracting output structures (one per sample) for seed 1...
+Extracting output structures (one per sample) for seed 1 took  0.01 seconds.
+Running model inference and extracting output structures for seed 1 took 8.16 seconds.
+Running model inference and extracting output structures for seeds (1,) took 8.16 seconds.
+Writing outputs for pep for seed(s) (1,)...
+Done processing fold input pep.
+Processing fold input #4
+Processing fold input pep
+Output directory /root/af_output/pep exists and non-empty, using instead  /root/af_output/pep_20251217_150343.
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.00 seconds
+Output directory: /root/af_output/pep_20251217_150343
+Writing model input JSON to /root/af_output/pep_20251217_150343
+Predicting 3D structure for pep for seed(s) (1,)...
+Featurising data for seeds (1,)...
+Featurising pep with rng_seed 1.
+Featurising pep with rng_seed 1 took 24.75 seconds.
+Featurising data for seeds (1,) took  24.75 seconds.
+Running model inference for seed 1...
+Running model inference for seed 1 took  8.15 seconds.
+Extracting output structures (one per sample) for seed 1...
+Extracting output structures (one per sample) for seed 1 took  0.01 seconds.
+Running model inference and extracting output structures for seed 1 took 8.16 seconds.
+Running model inference and extracting output structures for seeds (1,) took 8.16 seconds.
+Writing outputs for pep for seed(s) (1,)...
+Done processing fold input pep.
+Processing fold input #5
+Processing fold input prot_pep
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.00 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /root/af_output/prot_pep
+Writing model input JSON to /root/af_output/prot_pep
+Predicting 3D structure for prot_pep for seed(s) (1,)...
+Featurising data for seeds (1,)...
+Featurising prot_pep with rng_seed 1.
+Featurising prot_pep with rng_seed 1 took 91.00 seconds.
+Featurising data for seeds (1,) took  91.00 seconds.
+Running model inference for seed 1...
+Running model inference for seed 1 took  69.21 seconds.
+Extracting output structures (one per sample) for seed 1...
+Extracting output structures (one per sample) for seed 1 took  0.79 seconds.
+Running model inference and extracting output structures for seed 1 took 70.00 seconds.
+Running model inference and extracting output structures for seeds (1,) took 70.00 seconds.
+Writing outputs for prot_pep for seed(s) (1,)...
+Done processing fold input prot_pep.
+Done processing 5 fold inputs.

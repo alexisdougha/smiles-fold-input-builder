@@ -1,0 +1,18 @@
+{
+  "dialect": "alphafold3",
+  "version": 2,
+  "name": "pep",
+  "sequences": [
+    {
+      "ligand": {
+        "id": "A",
+        "smiles": "CC(C)[C@H]1C(=O)N[C@@H](CCCNC(N)=[NH2+])C(=O)NCC(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@H](Cc2ccccc2)C(=O)N1C"
+      }
+    }
+  ],
+  "modelSeeds": [
+    1
+  ],
+  "bondedAtomPairs": null,
+  "userCCD": null
+}

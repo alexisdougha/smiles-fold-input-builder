@@ -1,0 +1,6 @@
+Checking input data.
+Processing 5 inputs with 5 threads.
+Failed to process /shared/projects/antioxydant/pep_edit/structure_prediction/boltz/inputs/cilengitide_complex_boltz_input.fasta. Skipping. Error: Invalid entity type: boltz-smi.
+Running structure prediction for 4 inputs.
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/4 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/4 [00:00<?, ?it/s]Predicting DataLoader 0:  25%|██▌       | 1/4 [01:00<03:00,  0.02it/s]Predicting DataLoader 0:  50%|█████     | 2/4 [02:01<02:01,  0.02it/s]Predicting DataLoader 0:  75%|███████▌  | 3/4 [02:53<00:57,  0.02it/s]Predicting DataLoader 0: 100%|██████████| 4/4 [03:35<00:00,  0.02it/s]Number of failed examples: 0
+Predicting DataLoader 0: 100%|██████████| 4/4 [03:35<00:00,  0.02it/s]
