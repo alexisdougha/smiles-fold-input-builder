@@ -21,8 +21,9 @@ def prepare_boltz_input(smiles: str, filepath: str, protein_seq: Optional[str] =
     if protein_seq:
         with open(filepath, "w") as f:
             f.write(f">A|protein\n{protein_seq}\n>ligand|boltz-smi\n{smiles}")
-    with open(filepath, "w") as f:
-        f.write(f">A|smiles\n{smiles}")
+    else:
+        with open(filepath, "w") as f:
+            f.write(f">A|smiles\n{smiles}")
 
 
 def prepare_af3_input(smiles: str, filepath: str, protein_seq: Optional[str] = None):
