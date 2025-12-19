@@ -1,0 +1,30 @@
+I1218 16:48:04.932427 46960226574336 xla_bridge.py:895] Unable to initialize backend 'rocm': module 'jaxlib.xla_extension' has no attribute 'GpuAllocatorConfig'
+I1218 16:48:04.945025 46960226574336 xla_bridge.py:895] Unable to initialize backend 'tpu': INTERNAL: Failed to open libtpu.so: libtpu.so: cannot open shared object file: No such file or directory
+2025-12-18 16:48:05.326292: W external/xla/xla/service/gpu/nvptx_compiler.cc:930] The NVIDIA driver's CUDA version is 12.4 which is older than the PTX compiler version 12.6.77. Because the driver is older than the PTX compiler version, XLA is disabling parallel compilation, which may slow down compilation. You should update your NVIDIA driver or use the NVIDIA-provided CUDA forward compatibility packages.
+I1218 16:48:07.671862 46960226574336 pipeline.py:474] Skipping MSA and template search for protein chain A because it already has MSAs and templates.
+I1218 16:48:07.672339 46960226574336 pipeline.py:484] Using no templates for protein chain A
+I1218 16:48:11.747241 46960226574336 pipeline.py:164] processing 7X88_A_B_smiles_peptide, random_seed=1
+I1218 16:48:11.764773 46960226574336 pipeline.py:257] Calculating bucket size for input with 189 tokens.
+I1218 16:48:11.764923 46960226574336 pipeline.py:263] Got bucket size 256 for input with 189 tokens, resulting in 67 padded tokens.
+I1218 16:48:12.674638 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:13.586320 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:13.703094 46960226574336 pipeline.py:164] processing 7X88_A_B_smiles_peptide, random_seed=2
+I1218 16:48:13.714275 46960226574336 pipeline.py:257] Calculating bucket size for input with 189 tokens.
+I1218 16:48:13.714355 46960226574336 pipeline.py:263] Got bucket size 256 for input with 189 tokens, resulting in 67 padded tokens.
+I1218 16:48:14.607221 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:15.524811 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:15.637387 46960226574336 pipeline.py:164] processing 7X88_A_B_smiles_peptide, random_seed=3
+I1218 16:48:15.648585 46960226574336 pipeline.py:257] Calculating bucket size for input with 189 tokens.
+I1218 16:48:15.648658 46960226574336 pipeline.py:263] Got bucket size 256 for input with 189 tokens, resulting in 67 padded tokens.
+I1218 16:48:16.546973 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:17.378287 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:17.490724 46960226574336 pipeline.py:164] processing 7X88_A_B_smiles_peptide, random_seed=4
+I1218 16:48:17.502000 46960226574336 pipeline.py:257] Calculating bucket size for input with 189 tokens.
+I1218 16:48:17.502074 46960226574336 pipeline.py:263] Got bucket size 256 for input with 189 tokens, resulting in 67 padded tokens.
+I1218 16:48:18.401120 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:19.230002 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:19.342674 46960226574336 pipeline.py:164] processing 7X88_A_B_smiles_peptide, random_seed=5
+I1218 16:48:19.354073 46960226574336 pipeline.py:257] Calculating bucket size for input with 189 tokens.
+I1218 16:48:19.354144 46960226574336 pipeline.py:263] Got bucket size 256 for input with 189 tokens, resulting in 67 padded tokens.
+I1218 16:48:20.265823 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]
+I1218 16:48:21.095415 46960226574336 features.py:1518] Using SMILES for: LIG_B - CC(=O)NCCCC[C@H](NC(=O)[C@H](CCCNC(N)=[NH2+])NC(=O)[C@H](C)NC(=O)[C@H](C)[NH3+])C(=O)[O-]

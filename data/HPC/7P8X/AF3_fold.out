@@ -1,0 +1,61 @@
+Running AlphaFold 3. Please note that standard AlphaFold 3 model parameters are
+only available under terms of use provided at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+If you do not agree to these terms and are using AlphaFold 3 derived model
+parameters, cancel execution of AlphaFold 3 inference with CTRL-C, and do not
+use the model parameters.
+Found local devices: [CudaDevice(id=0)], using device 0: cuda:0
+Building model from scratch...
+Processing fold inputs.
+Processing fold input #1
+Processing fold input 7P8X_A_M_smiles_peptide_PEPEDIT
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.00 seconds
+Processing chain M
+Processing chain M took 0.00 seconds
+Output directory: /root/af_output/7p8x_a_m_smiles_peptide_pepedit
+Writing model input JSON to /root/af_output/7p8x_a_m_smiles_peptide_pepedit
+Predicting 3D structure for 7P8X_A_M_smiles_peptide_PEPEDIT for seed(s) (1, 2, 3, 4, 5)...
+Featurising data for seeds (1, 2, 3, 4, 5)...
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 1.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 1 took 3.19 seconds.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 2.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 2 took 3.18 seconds.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 3.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 3 took 3.44 seconds.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 4.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 4 took 3.35 seconds.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 5.
+Featurising 7P8X_A_M_smiles_peptide_PEPEDIT with rng_seed 5 took 3.17 seconds.
+Featurising data for seeds (1, 2, 3, 4, 5) took  20.37 seconds.
+Running model inference for seed 1...
+Running model inference for seed 1 took  50.07 seconds.
+Extracting output structures (one per sample) for seed 1...
+Extracting output structures (one per sample) for seed 1 took  0.31 seconds.
+Running model inference and extracting output structures for seed 1 took 50.38 seconds.
+Running model inference for seed 2...
+Running model inference for seed 2 took  20.49 seconds.
+Extracting output structures (one per sample) for seed 2...
+Extracting output structures (one per sample) for seed 2 took  0.29 seconds.
+Running model inference and extracting output structures for seed 2 took 20.78 seconds.
+Running model inference for seed 3...
+Running model inference for seed 3 took  20.63 seconds.
+Extracting output structures (one per sample) for seed 3...
+Extracting output structures (one per sample) for seed 3 took  0.29 seconds.
+Running model inference and extracting output structures for seed 3 took 20.93 seconds.
+Running model inference for seed 4...
+Running model inference for seed 4 took  20.73 seconds.
+Extracting output structures (one per sample) for seed 4...
+Extracting output structures (one per sample) for seed 4 took  0.31 seconds.
+Running model inference and extracting output structures for seed 4 took 21.04 seconds.
+Running model inference for seed 5...
+Running model inference for seed 5 took  20.86 seconds.
+Extracting output structures (one per sample) for seed 5...
+Extracting output structures (one per sample) for seed 5 took  0.29 seconds.
+Running model inference and extracting output structures for seed 5 took 21.15 seconds.
+Running model inference and extracting output structures for seeds (1, 2, 3, 4, 5) took 134.27 seconds.
+Writing outputs for 7P8X_A_M_smiles_peptide_PEPEDIT for seed(s) (1, 2, 3, 4, 5)...
+Done processing fold input 7P8X_A_M_smiles_peptide_PEPEDIT.
+Done processing 1 fold inputs.

@@ -1,0 +1,29 @@
+{
+  "name": "7P8X_A_M_smiles_peptide_PEPEDIT",
+  "modelSeeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MSVGLIAPLASPIQESRANTNIENIGDGAEVIKRTEDVSSKKWGVTQNVQFDFVKDKKYNKDALIVKMQGFINSRTSFSDVKGSGYELTKRMIWPFQYNIGLTTKDPNVSLINYLPKNKIETTDVGQTLGYNIGGNFQSAPSIGGNGSFNYSKTISYTQKSYVSEVDKQNSKSVKWGVKANEFVTPDGKKSAHDRYLFVQSPNGPTGSAREYFAPDNQLPPLVQSGFNPSFITTLSHEKGSSDTSEFEISYGRNLDITYATLFPRTGIYAERKHNAFVNRNFVVRYEVNWKTHEIKVKGHNKHHHHHH",
+        "unpairedMsaPath": "/shared/projects/antioxydant/test_af/fold_with_af3/pdbx_data_pipeline/MSA_extracted_from_pdbx_AF3_pipeline/7P8X_A_M_receptor_AF3_MSA_from_both_pdbx_unpaired.a3m",
+        "pairedMsaPath": "/shared/projects/antioxydant/test_af/fold_with_af3/pdbx_data_pipeline/MSA_extracted_from_pdbx_AF3_pipeline/7P8X_A_M_receptor_AF3_MSA_from_both_pdbx_paired.a3m",
+        "templates": []
+      }
+    },
+    {
+      "ligand": {
+        "id": "M",
+        "smiles": "CC(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@@H](Cc1ccc(OS(=O)(=O)[O-])cc1)C(=O)N[C@@H](CC(=O)[O-])C(=O)N[C@@H](Cc1ccc(OS(=O)(=O)[O-])cc1)C(=O)NCC(=O)[O-]"
+      }
+    }
+  ],
+  "dialect": "alphafold3",
+  "version": 2
+}
